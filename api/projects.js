@@ -5,7 +5,6 @@ module.exports = async (req, res) => {
     // Get a database connection, cached or otherwise,
     // using the connection string environment variable as the argument
     const db = await connectToDatabase();
-    console.log(db);
     // Select the "users" collection from the database
     const collection = await db.collection("projects");
 
