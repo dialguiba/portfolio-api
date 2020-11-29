@@ -11,5 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "@vercel/node": "^1.8.5"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.3"
   }
 }
